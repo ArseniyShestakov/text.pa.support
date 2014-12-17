@@ -1,0 +1,52 @@
+[h1]Warning: game only support x86_64 OS[/h1]
+This game don't have 32-builds for Linux and there won't be 32-builds in future.
+
+[h1]Introduction[/h1]
+All important Linux-specific issues listed here, but some issues might be not included here for number of reasons and in this case try to check other information sources:
+[list]
+
+[*][url=https://forums.uberent.com/forums/mac-and-linux-getting-started.73/]Sub forum for Mac and Linux players[/url]
+This is official developers forums and most of players stick to them.
+
+[*][url=http://pa.lennardf1989.com/Tracker/]Community bug tracker[/url]
+This is public bug database and it's might contain outdated information.
+
+[/list]
+If you unable to resolve problem on your own feel free to create new topic there or on Uber forums. Please don't forget to include your system information:
+[b]Steam client window -> Top menu bar -> Help -> System Information[/b]
+
+[h1]Common issues:[/h1]
+[list]
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3193]PA#3193[/url]
+[b]Startup crash on Debian Wheezy.[/b]
+Game is incompatible with old system GLIBC ABI and this not going to change.
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3591]PA#3591[/url]
+[b]Bundled libstdc++ incompatible with system version of library.[/b]
+PA depends on fairly new version of libstdc++.so.6 ABI so it's bundle own copy for compatibility with old distributions like Ubuntu 12.04. Unfortunately file might be too old for distributions like Arch Linux where very recent libstdc++ used by libraries like LLVM 3.5 used by R600g/RadeonSI drivers.
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=2392]PA#2392[/url]
+[b]UI freeze: CoherentUI_Host, X Window System error, BadAccess.[/b]
+This one most likely not just one error, but multiple small unrelated errors that appear and disappear between releases. Unfortunately Coherent is black box so it's hard to tell why it's happen.
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=1639]PA#1639[/url]
+[b]PA can't properly handle network interface down or Ethernet cable removed.[/b]
+In case something like that occur game will freeze with no error and won't go back to main menu. Workaround it's exit to OS, run client again and it's will let you reconnect. 
+
+[/list]
+
+[h1]Steam version issues:[/h1]
+[list]
+
+[*]None
+
+[/list]
+
+
+[h1]Non-Steam version issues:[/h1]
+[list]
+
+[*]None
+
+[/list]

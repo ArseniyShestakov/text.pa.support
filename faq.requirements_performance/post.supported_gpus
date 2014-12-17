@@ -1,0 +1,54 @@
+[h1]Warning for Linux (SteamOS) and Mac OS X users[/h1]
+This section based on information about Windows drivers quality and bugs, but situation on Linux and Mac might be different.
+
+[b]Mac OS X[/b] users might check this topic:
+[url=https://forums.uberent.com/threads/known-issues-os-x-osx-mac.60891/]Known Issues of OS X version[/url]
+
+[b]GNU/Linux[/b] might check [url=http://steamcommunity.com/app/233250/discussions/2/810938082193900075/]list of known issues of Linux version[/url]. Please keep in mind that game will only work properly with most recent proprietary and open source drivers so make sure your distribution provide them.
+
+[h1]Is my graphics/video card (GPU) supported?[/h1]
+This game need latest video card drivers ([url=http://steamcommunity.com/app/233250/discussions/2/864980278116578701/]to get latest drivers check this topic[/url]), but most of video cards produced since 2007 is supported. Keep in mind that old low-end graphics cards might have really poor performance.
+
+[b]Important note: video cards with at least 1GB of GDDR5 will perform much better and 2GB+ of GDDR5 is recommended for anyone who want to use middle or high settings.[/b]
+
+[h1][b]Not supported[/b] graphics cards:[/h1]
+[list]
+
+[*]Nvidia GeForce 7 Series (7***) and older.
+
+[*]ATI Radeon X1*** and older.
+
+[*]Intel onboard (integrated into motherboard) graphics
+Mobile Intel 4 Series Express
+Intel G33/G31 Express
+Intel 82945G Express
+
+[*]1st generation (Intel Ironlake) of Intel CPU-integrated graphics.
+This is also affect Arrandale CPUs: Celeron P4600, Pentium P6100
+
+[/list]
+
+[h1][b]Supported[/b] graphics cards with known problems:[/h1]
+[list]
+
+[*]Laptops with Nvidia GPUs on Windows Vista.
+Unfortunately Nvidia dropped driver updates for laptops on Vista so there is no guarantee game will work at all. Though upgrade to Windows 7 will let game to run.
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=2098]PA#2098[/url] - Missing cursor in full screen mode. GPU driver bug.
+Affected hardware/software:
+[list]
+[*]All AMD GPUs on Windows Vista.
+[*]ATI/AMD GPUs using legacy drivers: HD2XXX HD3XXX HD4XXX except Windows 8.1
+[*]All Nvidia GPUs on Vista. Task [url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3886]PA#3886[/url]
+[/list]
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3745]PA#3745[/url] - ATI/AMD HD3XXX series GPU lockups, PC freezes. GPU driver bug.
+
+[/list]
+
+[h1]My laptop with Intel integrated graphics can't run this game?[/h1]
+Only small subset of low-end laptops that can't run this game due to lack of required features.
+
+Most of laptops produced after 2010 have newer Intel CPUs: Sandy Bridge, Ivy Bridge and Haswell. Integrated graphics of those laptops can run this game: Intel HD2000/3000 and newer.
+
+Still target iGPU for minimum requirements it's Ivy Bridge graphics: Intel HD2500/4000.

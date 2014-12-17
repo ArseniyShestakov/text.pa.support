@@ -1,0 +1,20 @@
+[h1]Will my PC run this game?[/h1]
+It's most popular answer on this forums and there is no simple answer on it, but I'll help you with that. One of biggest advantages of this game is scalability and this mean you can play 1v1 game on small moon or large 5v5 game with multiple large planets.
+
+There is multiple factors that affect performance:
+[list]
+
+[*]Size and number of planets. Solar systems with 2-3 small planets obviously less hardware-demanding than solar system with 3-5 large planets.
+
+[*]Biome and generation settings of planets. Planets with tons of objects on surface are more hardware-demanding.
+So moon or metal planets can have 3-5 times better framerate than earth/lava planets with lot of mountains or trees.
+
+[*]Number of units and effects on screen. There is no unit cap and it's mean number of units limited by production capabilities.
+
+[*]Bigger planets or just more planet require more video memory. You can check video memory usage using Ctrl+P (press twice).If VRAM usage goes beyond memory your video card has it's can cause serious performance drop.
+
+[/list]
+
+So depends on many factors you can play this game on on some laptop with 4GB of RAM and integrated graphics or it's can "lag" on high end desktop PC. So it's up to you to choose proper game scale your hardware can handle.
+
+Also keep in mind this game is not finished and performance optimizations isn't done yet. 

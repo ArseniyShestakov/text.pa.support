@@ -1,0 +1,7 @@
+[h1]Can this game work on a 32bit operating system (OS)?[/h1]
+There is 32-bit version, but at moment it's work bad due to 32-bit OS memory limits.
+Here is topic which contain  proper explanation of that problem:
+http://steamcommunity.com/app/233250/discussions/2/648816742979172000/
+If you use proposed workaround game will able to use more memory and it's should work properly, but upgrade to 64-bit OS is recommended.
+
+[b]PS: There is no 32-bit support for Linux and it's not planned.[/b] 

@@ -1,0 +1,6 @@
+[h1]Is this game actually need so much RAM?[/h1]
+[b]Yes.[/b] Many games state 4-8GB RAM in system requirements, but never actually use more than 1-2GB RAM, but this game is different. It's engine designed with 64-bit architecture in mind and it's actually use lot of memory.
+
+You'll able to participate some games with only 4GB RAM, but for many large scale battles 6-8GB is required. Minimal memory usage depends on number of planets and their size: each large planet can use 1-2GB RAM depends on used biome and number of objects. Planets with lot of cracks and mountains use a lot of RAM.
+
+[b]If your PC only have 2-3GB RAM this game won't work.[/b] 

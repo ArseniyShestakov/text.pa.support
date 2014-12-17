@@ -1,0 +1,7 @@
+[h1]Why game work so slow on my gaming laptop?[/h1]
+Most of laptops on market have hybrid graphics: Nvidia Optimus or AMD Power Express.
+
+Hybrid graphics mean laptop have two graphics cards: slow integrated and high performance discrete. By default this game using integrated graphics and you need to manually configure your drivers to run game on discrete graphics card.
+
+You can find more details and video how-to's in this topic:
+http://steamcommunity.com/app/233250/discussions/2/864980278116578701/ 

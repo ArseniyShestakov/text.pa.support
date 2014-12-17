@@ -1,0 +1,113 @@
+Some problems with game can be caused by 3rd party software so this topic will contain list of known issue.
+
+Both software and game is updated all the time so it's impossible to say for sure if some software cause issues at moment, but if you have problems with game it's worth to check this list.
+
+[h1]Antivirus and Firewall Software[/h1]
+[list]
+
+[*]ESET NOD32 Antivirus. SSL Scanning result in UberNet connection failure.
+Disable this feature to avoid the problem:
+http://kb.eset.com/esetkb/index?page=content&id=SOLN3126
+
+[*]Kaspersky Anti-Virus. SSL connection scan result in UberNet connection failure.
+You need add PA.exe to a list of trusted applications to avoid the problem.
+Use this "Google Chrome" instruction:
+http://support.kaspersky.com/9093
+
+[*]Norton 360. This anti-virus might enforce some sanboxing rules that can make game crash.
+You need to check it's rules and make sure both PA.exe and CoherentUI_Host.exe have "allowed" rules set.
+
+[/list]
+
+[h1]Video Game Recording Software[/h1]
+[list]
+
+[*]Bandicam. Cause black screen / UI crash for some players.
+
+[*]Dxtory. Cause crash on start for some players.
+
+[*]FRAPS. Cause crashes for some players as well.
+
+[*]PlayClaw. [url=http://steamcommunity.com/app/233250/discussions/2/540744937204339021/?tscn=1404201309#c540744937433705023]Caused game start up problems as well.[/url]
+
+[/list]
+
+[h1]Software that inject into networking[/h1]
+[list]
+
+[*]ASUS GameFirst III. May cause horrible network lag with both online and offline servers.
+This software somehow affect the way networking work and it's also affect connections to loopback interface (127.0.0.1) that used by local server.
+https://forums.uberent.com/threads/asus-g751-network-lag-online-offline-fixed.66577/
+
+[/list]
+
+[h1]Software using on-screen displays (OSD)[/h1]
+[list]
+
+[*]RivaTuner Statistics Serve
+Caused black screen issue:
+http://steamcommunity.com/app/233250/discussions/2/616187204094608139/
+There is known workaround that available here:
+https://forums.uberent.com/threads/blackscreen-on-startup-since-last-update.63440/#post-991967
+
+[*]MSI Afterburner. In-game freezes.
+Bugtracker: [url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3139]PA#3139[/url]
+
+[*]ASUS Sonic Radar.
+Caused black screen issue (UI crash):
+http://steamcommunity.com/app/233250/discussions/2/616187204013052506/
+
+[*]Lenovo - One Key Theater. [url=http://steamcommunity.com/app/233250/discussions/2/540744935726928401/]Caused crash on start for one of players.[/url]
+Crash is happen in twitchsdk_64_release.dll.
+
+[/list]
+
+[h1]Software intercepting 3D API calls[/h1]
+[list]
+
+[*]Virtu MVP. Cause startup crash on both Steam and non-Steam.
+Bugtracker: [url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=2755]PA#2755[/url]
+
+[*]amBX. Cause startup crash of Steam version.
+Bugtracker: [url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3341]PA#3341[/url]
+
+[/list]
+
+[h1]Software that modify window effects and management[/h1]
+[list]
+
+[*]Dexpot ([url=http://dexpot.de/]website[/url]). App for virtual desktops on Windows.
+Reported by @Cola_colin.
+
+[*][url=http://www.stardock.com/products/windowfx/]windowFX[/url] and of [url=http://www.stardock.com/products/windowblinds/]windowsBlinds[/url] of StarDock.
+Reported by @Max_powerz in [url=https://forums.uberent.com/threads/pa-is-not-working.66090/page-2#post-1036894]this topic[/url]
+
+[/list]
+
+[h1]Other...[/h1]
+[list]
+
+[*]ADSafe (A Chinese program to block Advertisement). [url=http://steamcommunity.com/app/233250/discussions/2/619568192817772295/]Caused black screen in-game.[/url]
+
+[*]SonicWALL Virtual NIC
+https://forums.uberent.com/threads/pa-exe-has-stopped-responding-solved-caused-by-virtual-nic-driver.66562/page-2#post-1045282
+
+[/list]
+
+[h1]You might try to find incompatible software on your own![/h1]
+Any software that use following features might be potentially incompatible with this game:
+[list]
+
+[*]On-screen displays (OSD)
+
+[*]Interception / modifying of 3D API (Direct3D / OpenGL) calls.
+
+This game is OpenGL-powered and most of such software isn't designed to work properly with OGL.
+
+[*]Software ad blockers or any software trying to inject into web browsers.
+This game have built-in web-browser used for user interface rendering.
+
+[/list]
+
+[h1]Find incompatible software not in list?[/h1]
+This list is constantly updated. If you know any other software causing issues with this game which isn't listed here please sent me friend request and let me know. Thanks!

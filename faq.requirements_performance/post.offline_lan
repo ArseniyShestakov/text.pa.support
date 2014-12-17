@@ -1,0 +1,21 @@
+[h1]What is requirements for offline or LAN game?[/h1]
+First of all your OS have to be 64-bit. 
+There is no plans for 32-bit server.
+
+The spec that the server looks for to run locally is the same as game recommended spec:
+[list]
+
+[*]8GB of RAM
+[*]Quad core CPU
+
+[/list]
+You can override this by setting Local Server to "ON", which means it will try and use a local server for everything - except online hosted games, which still go through Uber's online server management.
+
+[h1]What is requirements for hosting online game or standalone server?[/h1]
+Main requirement of hosting online game is upstream bandwidth. You need to have at least 2 Mb/s for each connected player and for long game with many thousands of units it's have to be 5 Mb/s per player.
+
+So for 6 players game you need to have 20-25 Mb/s of upstream connection speed.
+
+[h1]Where can I read more information about server and offline?[/h1]
+There is special topic you can read:
+http://steamcommunity.com/app/233250/discussions/4/619568793755951256/

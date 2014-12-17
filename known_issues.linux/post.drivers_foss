@@ -1,0 +1,56 @@
+[h1]Fix: FOSS drivers and [b]black, gray textures[/b][/h1]
+If you run the game and all of textures you see are black and gray it's mean you don't have S3 texture compression library installed. This is how you can get S3TC support:
+[list]
+
+[*]Debian-based include Ubuntu and other derivatives.
+Required package called "[b]libtxc-dxtn-s2tc0[/b]"
+
+[*]RPM-based: Fedora, OpenSuse, etc.
+Required package called "[b]libtxc_dxtn[/b]"
+
+[*]Any other distribution.
+Check your distribution wiki or Google about S3TC / DXTn.
+
+[/list]
+
+[h1]Warning: minimal requirements and performance[/h1]
+If you're using recent distribution like Ubuntu 14.04 or Fedora 20 it's still useful to get even recent open source graphics stack because game use such advanced feature as GL_ARB_buffer_storage (part of OpenGL 4.4) which was implemented in Mesa only March of 2014 and wasn't included in current distribution releases.
+
+Users of Ubuntu and derivative can get latest drivers via [url=https://launchpad.net/~oibaf/+archive/graphics-drivers/]Oibaf PPA[/url]
+
+[h1]Issues with open source drivers:[/h1]
+[list]
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=1595]PA#1595[/url]
+[b]Missing or corrupted cursors, icons, etc...[/b]
+This is Mesa-specific bug and there is two workarounds for it:
+[list]
+[*]Run game with "--software-ui" flag
+[*]Use special [url=https://forums.uberent.com/threads/no-cursor-block-cursor-ubuntu-12-04-13-04-13-10.53019/page-2#post-814965]mod[/url]
+You can install this mod via PA mod manager:
+https://forums.uberent.com/threads/rel-pa-mod-manager-crossplatform-version-with-atom-shell.59992/
+[/list]
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3607]PA#3607[/url]
+[b]Intel: Ambient occlusion glitches on Intel HD4600.[/b]
+AO doesn't work properly moving shadow together with camera.
+Task on FreeDesktop bug tracker: [url=https://bugs.freedesktop.org/show_bug.cgi?id=80018]#80018[/url] 
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3606]PA#3606[/url]
+[b]R600g: Object on planet become black on zoom out.[/b]
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3605]PA#3605[/url]
+[b]R600g: GPU lockup in system editor on Radeon driver.[/b]
+Note: this only happen in system editor, but live game is work!
+Task on FreeDesktop bug tracker: [url=https://bugs.freedesktop.org/show_bug.cgi?id=79417]#79417[/url] 
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=2321]PA#2321[/url]
+[b]R600g: Sun is missing or corrupted sun on AMD GPU.[/b]
+This is happen because R600g driver can't handle this complicated sun shader.
+You can replace default shader with simplified I made:
+[list]
+[*]Download and replace from [url=https://forums.uberent.com/threads/lightweight-failsafe-sun-fs-for-r600g.60507/]my topic[/url]
+[*]Or install it using [url=https://forums.uberent.com/threads/rel-pa-mod-manager-crossplatform-version-with-atom-shell.59992/]PA mod manager[/url]
+[/list]
+
+[/list]

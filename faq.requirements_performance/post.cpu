@@ -1,0 +1,4 @@
+[h1]Is this game need powerful CPU?[/h1]
+One of main concepts of this game is client-server architecture where most of CPU-intensive tasks done by host/server while client it's only lightweight viewer. For now CPU only actively used in planet generation  that done on client. If your CPU are slow you'll need to wait before planet generation finished for extra 10-30 seconds, but everyone in community understand that so you won't have any problems with that in MP.
+
+Still there is number of advice might help you: make sure you have all recent OS updates, if you use anti-virus software enable game mode while playing, make sure there is no CPU-intensive software running in background. If you follow advice you should be fine. 

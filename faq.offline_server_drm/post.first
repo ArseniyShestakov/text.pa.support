@@ -1,0 +1,73 @@
+Here I'll try to answer most often questions related to offline mode and LAN support for players who already bought the game or only planning to buy it and want to know details.
+
+[h1]Is there any additional DRM or first time activation on game?[/h1]
+No and no. [i]Of course Steam is DRM too.[/i]
+Though Steam version of game might work without Steam client running.
+
+[h1]Are registration and login on PlayFab (ex. UberNet) is mandatory?[/h1]
+If you bought game on Steam and run it via Steam client it's will require registration on PlayFab and there no option to ignore it yet. Though there is two ways to bypass it:
+[list]
+
+[*]You can switch Steam client into offline mode and run game.
+
+[*]Go to game installation directory and run PA.exe directly.
+
+[/list]
+As result game won't require registration or login to play in single player, Galactic War or over LAN.
+
+[h1]Can I still play skirmish / Galactic War game on PlayFab servers?[/h1]
+Yes you can. If you're logged into PlayFab game automatically check's what is better for your PC and start server locally or online depend on your hardware.
+
+[h1]I run game in offline mode, why is menu items are grayed out?[/h1]
+There might be 3 reasons why this could happen:
+[list]
+
+[*]You're running game on 32-bit (x86) Windows.
+Due to high requirements there is no local server for 32-bit and it's not planned. 
+
+[*]Game determine your PC hardware don't met [url=http://steamcommunity.com/app/233250/discussions/4/558749824471305841/#c619568793755944377][b]requirements for local server (click for more details)[/b][/url].
+You can override this by setting Local Server to "ON", but you might met low performance or crashes.
+
+[*]For some reason "Local server" option is set to "Off".
+You'll need to set it to "Auto" or "On".
+
+[/list]
+
+[h1]How can I check that local server is used for my game?[/h1]
+Once you're in lobby or game check process list (e.g Task Manager on Windows) and if you there is "server.exe / server" running it's mean game simulation done on your PC.
+
+[h1]Why I still see "Login Accepted", "Connection to server lost" in offline game?[/h1]
+Even with no DRM game is still split in two parts: client and server.
+[list]
+
+[*]Server is control simulation of everything: unit vision, projectile collisions, AI, path finding, etc. Server also keep full game history for ChronoCam.
+
+[*]Client only visualize what's happen in game.
+
+[/list]
+This is how PA engine designed to work and this not going to change. So when you're create local game client is spawn instance of server on your PC, but it's works exactly same way like you're connection PlayFab server.
+
+Of course if server running on your PC crashed you'll see "Connection to server lost".
+
+[h1]What ports used by server?[/h1]
+[list]
+
+[*]Main server port is 20545 TCP.
+First offline release used port "6543", but it's was changed due to conflict with Bluetooth on Windows.
+
+[*]For LAN game also use 8192 UDP.
+
+[*]If you using "--http" flag for server (HTTP API) server will also listen on port 8080 TCP.
+
+[/list]
+
+[h1]Why server RAM usage in-game increased over time so much?[/h1]
+Server keep full history of game in memory for ChronoCam. Every unit or projectile move have to be ready in memory to instantly provide it to player game client and memory usage will grow a lot faster if there is more units in game.
+
+[h1]Can I host online (not LAN) game on my PC?[/h1]
+At moment it's tricky, but possible:
+https://forums.uberent.com/threads/wip-dedicated-servers.65077/
+
+[h1]What about local server requirements?[/h1]
+Latest information about server requirements available here:
+http://steamcommunity.com/app/233250/discussions/4/558749824471305841/#c619568793755944377

@@ -1,0 +1,33 @@
+In this topic I'll try to keep platform specific bugs on Windows version. There is several problems with game that can't be fixed rapidly or caused by graphics drivers so they might be only fixed if developers can workaround them.
+
+[h1]Graphics issues:[/h1]
+[list]
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3745]PA#3745[/url]
+[b]GPU lockups on ATI/AMD HD 3XXX 4XXX on Windows[/b]
+Unfortunately this happen because driver bugs and AMD abandon updates.
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=2098]PA#2098[/url]
+[b]Invisible Cursor in Fullscreen on AMD Legacy and Vista[/b]
+This issue affect all AMD GPUs on Windows Vista.
+It's also affect HD4XXX 3XXX on all versions of Windows.
+Workaround: play in windowed mode, toggle it using Alt+Enter.
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3886]PA#3886[/url]
+[b]Invisible Cursor in Fullscreen on Nvidia vid and Vista[/b]
+Workaround: play in windowed mode, toggle it using Alt+Enter.
+
+[/list]
+
+[h1]Other issues:[/h1]
+[list]
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=4047]PA#4047[/url]
+[b]Game is blinking / flickering in full screen with non-standard DPI on Windows 8 / Nvidia[/b]
+Workaround: set DPI (font size) to default 100% or just make sure that system and user DPI is the same.
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=3738]PA#3738[/url]
+[b]Crashes with Afterglow Universal Wireless Gaming Headset (possible other USB wireless headsets)[/b]
+Workaround: run game without USB headset receiver connected.
+
+[/list]

@@ -1,0 +1,22 @@
+[h1]Warning about data transfer rates / internet connection speed[/h1]
+Megabits per second (Mb/s or Mbps) is widely used as the unit of measurement for data transfer rates most ISP (Internet Service Provider) use for measurement of connection speed. Here is good article about data rate units on Wikipedia:
+http://en.wikipedia.org/wiki/Data_rate_units
+
+Short explanation:
+[list]
+
+[*]Mb/s - megabit per second.
+
+[*]MB/s - megabyte per second.
+
+[/list]
+Eight megabit equal one megabyte so connection speed of 8Mb/s is equal to 1MB/s.
+
+[h1]Is my internet connection speed good to play online?[/h1]
+[b]Keep in mind this game won't have offline mode till release.[/b] Even if you only play with AI persistent internet connection is required. It's doesn't matter if you play with AI or real player; connection usage will always be same.
+
+At least [b]2Mb/s[/b] (megabit per second) download speed required, but it's will be pretty useful if you have 4-5Mb/s. This game using client-server architecture and it's require faster internet connection than most of other games, especially other RTS.
+
+[h1]How do I check my internet connection speed?[/h1]
+If you not sure what connection speed you have check it using this website:
+http://www.speedtest.net/ 

@@ -1,0 +1,21 @@
+[h1]Issues with Nvidia proprietary drivers:[/h1]
+[list]
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=1628]PA#1628[/url]
+[b]Constant problems with optirun/primusrun on laptops.[/b]
+There a multiple different problems and solutions for them you can find on Uber forums and bug tracker. Try different configurations, newer drivers or NVIDIA Prime.
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=4123]PA#4123[/url]
+[b]Invisible cursor with Nvidia GPU with "--software-ui" flag[/b]
+
+[/list]
+
+[h1]Issues with AMD proprietary drivers:[/h1]
+[list]
+
+[*][url=http://pa.lennardf1989.com/Tracker/index.php?do=details&task_id=2343][strike]PA#2343[/strike][/url]
+[b]Black window instead of game with AMD Catalyst.[/b]
+This problem resolved in Catalyst 14.4 update!
+If you still using older driver upgrade ASAP!
+
+[/list]
